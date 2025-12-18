@@ -1,0 +1,227 @@
+/* style.css */
+
+/* Reset dasar */
+/* Index container */
+.index-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.index-container .card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/* Button */
+.index-container .btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 12px 30px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.index-container .btn:hover {
+    background-color: #66bb6a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Form */
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+form h2 {
+    margin-bottom: 20px;
+    color: #ffeb3b;
+    font-size: 24px;
+}
+
+/* Input */
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Button */
+form button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #ff9800;
+}
+
+/* Links */
+a {
+    color: #00e5ff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Saldo */
+.saldo {
+    font-size: 28px;
+    color: #ffeb3b;
+    margin: 15px 0;
+}
+
+/* Button links */
+.dashboard-links a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 25px;
+    background-color: #2196f3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.dashboard-links a:hover {
+    background-color: #42a5f5;
+}
+
+/* Container utama */
+.transaksi-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 20px;
+}
+
+/* Card transaksi */
+.transaksi-card {
+    background-color: rgba(0,0,0,0.75);
+    padding: 40px 50px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Judul Transaksi */
+.transaksi-card h2 {
+    font-size: 24px;
+    color: #ffeb3b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Form transaksi */
+.transaksi-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+/* Label lurus */
+.transaksi-form label {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left; /* agar label lurus di atas input */
+}
+
+/* Input jumlah */
+.transaksi-form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Tombol setor/tarik sejajar */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.btn-group button {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
